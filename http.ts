@@ -4,7 +4,7 @@ import { base_url } from './share.js'
 const http: AxiosInstance = axios.create({
   baseURL: `${base_url}`,
   headers: {
-    'Content-Type': 'multipart/form-data',
+    'Content-Type': 'application/json',
     'Accept': 'application/json',
   },
 })
